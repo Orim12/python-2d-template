@@ -11,5 +11,5 @@ Open your terminal and run:
 ```bash
 curl -s https://raw.githubusercontent.com/Orim12/python-2d-template/refs/heads/main/run.sh | bash -s my_game_name
 ```
-	•	Replace my_game_name with your desired project folder name (optional).
-	•	If omitted, it defaults to: my_2d_game.
+•	Replace my_game_name with your desired project folder name (optional).
+•	If omitted, it defaults to: my_2d_game.
