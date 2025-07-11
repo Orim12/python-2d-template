@@ -3,6 +3,7 @@
 # Get the target directory name (optional argument)
 TARGET_DIR=${1:-"."}
 TARGET_NAME=$(basename "$TARGET_DIR")
+CURRENT_DIR_NAME=$(basename "$PWD")
 
 if [ "$TARGET_DIR" != "." ] && [ "$TARGET_DIR" == "$CURRENT_DIR_NAME" ]; then
   echo "⚠️ Warning: You passed the current folder name '$TARGET_DIR' as argument."
