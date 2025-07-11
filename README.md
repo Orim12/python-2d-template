@@ -7,7 +7,7 @@ It sets up folders, a virtual environment, dependencies, and a basic game loop â
 
 ## ğŸš€ Quick Start
 
-###Open your terminal and run:<br>
+### Open your terminal and run:<br>
 if you need to create the folder run
 ```bash
 curl -s https://raw.githubusercontent.com/Orim12/python-2d-template/refs/heads/main/run.sh | bash -s my_game_name
