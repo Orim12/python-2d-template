@@ -4,6 +4,18 @@
 TARGET_DIR=${1:-"."}
 TARGET_NAME=$(basename "$TARGET_DIR")
 
+if [ "$TARGET_DIR" != "." ] && [ "$TARGET_DIR" == "$CURRENT_DIR_NAME" ]; then
+  echo "⚠️ Warning: You passed the current folder name '$TARGET_DIR' as argument."
+  echo "This will create a nested folder inside the current folder."
+  echo "Press Ctrl+C to abort or wait 10 seconds to continue..."
+
+  for i in $(seq 10 -1 1); do
+    echo -ne "Continuing in $i seconds...\r"
+    sleep 1
+  done
+  echo -e "\nContinuing setup..."
+fi
+
 # Go to the target directory if not already in it
 if [ "$TARGET_DIR" != "." ]; then
   mkdir -p "$TARGET_DIR"
