@@ -1,11 +1,23 @@
-# 🕹️ Python 2D Game Project Template
+# 🧰 Python Project Template Collection
 
-A simple shell script to instantly scaffold a clean Python 2D game project using `pygame`.<br>
-It sets up folders, a virtual environment, dependencies, and a basic game loop — so you can start building immediately.
+This repository provides a **collection of Python project templates** you can use as-is or customize to your needs.
+
+Whether you're starting a 2D game using `pygame`, a script, or any other Python-based project, this template system will scaffold everything for you — including folder structure, virtual environments, dependencies, and optionally a basic working example.
+it is community driven so feel free to add your own template so that others may use it
 
 ---
 
-## 🚀 Quick Start
+## 📦 Available Templates
+
+You can choose from the following templates (more coming soon):
+
+- [🎮 2D Game Template (Pygame)](##-2d-game-template-pygame)
+- [🔁 Coming Soon: CLI App Template](#)
+- [🌐 Coming Soon: Flask Web App Template](#)
+
+---
+
+## 2d-game-template-pygame
 
 ### Open your terminal and run:<br>
 if you need to create the folder run
