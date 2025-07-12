@@ -42,13 +42,12 @@ pip freeze > requirements.txt
 
 # Create main.py
 cat <<EOF > src/main.py
-import pygame
-import sys
 import os
-
+import sys
+import pygame
 # Add project root to Python path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-
+# ingnore warning about that it needs to be at the top of the file
 from config.settings import *
 
 def main():
