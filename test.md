@@ -10,7 +10,7 @@ Add badges from somewhere like: [shields.io](https://shields.io/)
 [![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](https://choosealicense.com/licenses/gpl-3.0/)
 
 # Table of contents  
-1. [Introduction](#introduction)  
+1. [Introduction](##Screenshots)  
 2. [Some paragraph](#paragraph1)  
     1. [Sub paragraph](#subparagraph1)  
 3. [Another paragraph](#paragraph2)  
