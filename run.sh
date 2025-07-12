@@ -78,4 +78,24 @@ EOF
 touch src/scenes/__init__.py
 touch src/entities/__init__.py
 
+# Download CC0 sound assets
+echo "🎵 Downloading free CC0-licensed sound effects..."
+
+curl -s -L -o assets/sounds/click.wav "https://cdn.freesound.org/previews/258/258020_4486188-lq.wav"
+curl -s -L -o assets/sounds/jump.wav "https://cdn.freesound.org/previews/270/270404_5121236-lq.wav"
+curl -s -L -o assets/sounds/bg_music.mp3 "https://cdn.freesound.org/previews/399/399303_5121236-lq.mp3"
+
+# Create credits file
+cat <<EOF > CREDITS.md
+# 🎵 Sound Credits (All CC0 - Public Domain)
+
+These sounds are free to use in any project (commercial or personal), no attribution required.
+
+- click.wav from: https://freesound.org/people/Kodack/sounds/258020/
+- jump.wav from: https://freesound.org/people/LittleRobotSoundFactory/sounds/270404/
+- bg_music.mp3 from: https://freesound.org/people/cognito%20perceptu/sounds/399303/
+
+Downloaded automatically from Freesound.org.
+EOF
+
 echo "✅ Done! Your 2D Python game project '$TARGET_NAME' is ready in $(pwd)."
