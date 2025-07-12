@@ -11,7 +11,7 @@ it is community driven so feel free to add your own template so that others may 
 
 You can choose from the following templates (more coming soon):
 
-- [🎮 2D Game Template (Pygame)](##-2d-game-template-pygame)
+- [🎮 2D Game Template (Pygame)](#-2d-game-template-pygame)
 - [🔁 Coming Soon: CLI App Template](#)
 - [🌐 Coming Soon: Flask Web App Template](#)
 
