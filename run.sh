@@ -43,12 +43,18 @@ pip freeze > requirements.txt
 # Create main.py
 cat <<EOF > src/main.py
 import pygame
-from config.settings import SCREEN_WIDTH, SCREEN_HEIGHT
+import sys
+import os
+
+# Add project root to Python path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+from config.settings import *
 
 def main():
     pygame.init()
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-    pygame.display.set_caption("$TARGET_NAME")
+    pygame.display.set_caption(".")
 
     clock = pygame.time.Clock()
     running = True
